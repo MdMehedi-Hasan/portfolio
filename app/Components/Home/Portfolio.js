@@ -25,6 +25,7 @@ export default function Portfolio() {
             alt="Picture of the author"
             width={500}
             height={500}
+            className="w-full rounded-lg"
           />
           {/* <img src={ic1} alt="portfolio" className="w-full rounded-lg" /> */}
         </div>
@@ -39,6 +40,7 @@ export default function Portfolio() {
             alt="Picture of the author"
             width={500}
             height={500}
+            className="w-full rounded-lg"
           />
         </div>
         <div
@@ -52,6 +54,7 @@ export default function Portfolio() {
             alt="Picture of the author"
             width={500}
             height={500}
+            className="w-full rounded-lg"
           />
         </div>
         <div
@@ -65,6 +68,7 @@ export default function Portfolio() {
             alt="Picture of the author"
             width={500}
             height={500}
+            className="w-full rounded-lg"
           />
         </div>
         <div
@@ -78,6 +82,7 @@ export default function Portfolio() {
             alt="Picture of the author"
             width={500}
             height={500}
+            className="w-full rounded-lg"
           />
         </div>
       </div>

@@ -11,8 +11,8 @@ export default function Projects() {
       <Image
         src="/Assets/round-text.png"
         alt="Project"
-        width={500}
-        height={500}
+        width={140}
+        height={140}
         className="rotating-image"
       />
       <FaArrowDownLong className="text-3xl absolute top-0 bottom-0 right-0 left-0 m-auto" />

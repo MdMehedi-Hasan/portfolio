@@ -18,7 +18,7 @@ export default function Resume() {
                     </div>
                     <div className='mb-20'>
                         <h2 className='mb-1 text-gray-400 group-hover:text-[#28e98c] transition ease-in-out duration-300 text-xl'><a href="https://interactivecares.com/">Interactive Cares</a></h2>
-                        <h3 className='mb-5 text-gray-400 group-hover:text-[#7c978a] transition ease-in-out duration-300 text-sm'>2023 - Present</h3>
+                        <h3 className='mb-5 text-gray-400 group-hover:text-[#7c978a] transition ease-in-out duration-300 text-sm'>2023 - 2024</h3>
                         <ul className='flex flex-col gap-4'>
                             <li className='flex items-center gap-2'><span><GoDash /></span>Develop an Ed-Tech platform from scratch.</li>
                             <li className='flex items-center gap-2'><span><GoDash /></span>Collaborate with backend developers for API integration.</li>

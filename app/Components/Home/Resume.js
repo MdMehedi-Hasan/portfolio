@@ -17,6 +17,24 @@ export default function Resume() {
                         <div className='h-full w-[0.1px] bg-gray-400'></div>
                     </div>
                     <div className='mb-20'>
+                        <h2 className='mb-1 text-gray-400 group-hover:text-[#28e98c] transition ease-in-out duration-300 text-xl'><a href="https://interactivecares.com/">Klassy Missy</a></h2>
+                        <h3 className='mb-5 text-gray-400 group-hover:text-[#7c978a] transition ease-in-out duration-300 text-sm'>2024 - Present</h3>
+                        <ul className='flex flex-col gap-4'>
+                            <li className='flex items-center gap-2'><span><GoDash /></span>Developed scalable web apps using Next.js.</li>
+                            <li className='flex items-center gap-2'><span><GoDash /></span>Implemented SSR/SSG for better SEO and performance.</li>
+                            <li className='flex items-center gap-2'><span><GoDash /></span>Used React Query and Axios for efficient data fetching.</li>
+                            <li className='flex items-center gap-2'><span><GoDash /></span>Handled auth and RBAC with NextAuth.js.</li>
+                            <li className='flex items-center gap-2'><span><GoDash /></span>Built forms using React Hook Form with Zod/Yup validation.</li>
+                            <li className='flex items-center gap-2'><span><GoDash /></span>Optimized performance with lazy loading and code splitting.</li>
+                        </ul>
+                    </div>
+                </li>
+                <li className='flex gap-5 group' data-aos="fade-left" data-aos-duration="1500">
+                    <div className='flex flex-col items-center'>
+                        <div className='w-3 h-3 bg-gray-400 rounded-full group-hover:bg-[#28e98c] transition ease-in-out duration-300'></div>
+                        <div className='h-full w-[0.1px] bg-gray-400'></div>
+                    </div>
+                    <div className='mb-20'>
                         <h2 className='mb-1 text-gray-400 group-hover:text-[#28e98c] transition ease-in-out duration-300 text-xl'><a href="https://interactivecares.com/">Interactive Cares</a></h2>
                         <h3 className='mb-5 text-gray-400 group-hover:text-[#7c978a] transition ease-in-out duration-300 text-sm'>2023 - 2024</h3>
                         <ul className='flex flex-col gap-4'>

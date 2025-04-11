@@ -1,11 +1,15 @@
-import React from 'react'
+"use client"
+import React, { useEffect } from 'react'
 import { IoIosBriefcase } from "react-icons/io";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { GoDash } from 'react-icons/go';
 
 export default function Resume() {
-    AOS.init();
+    useEffect
+    (() => {
+        AOS.init();
+      }, []);
     return (
         <section>
             <span className='flex items-center gap-2 text-xs border border-[#565656] rounded-full w-fit px-4 py-2 mt-36 mb-16' id='resume' data-aos="fade-up" data-aos-duration="1500"><IoIosBriefcase />RESUME</span>

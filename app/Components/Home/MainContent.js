@@ -1,6 +1,6 @@
 "use client"
-import React, { useRef } from 'react'
-import { Button, SwipeableDrawer, Tooltip } from '@mui/material';
+import React from 'react'
+import { SwipeableDrawer } from '@mui/material';
 import { HiMenuAlt4 } from "react-icons/hi";
 import NavMenu from '../Common/NavMenu';
 import Intro from './Intro';

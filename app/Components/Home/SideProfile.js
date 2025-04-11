@@ -1,9 +1,6 @@
 "use client";
 import React, { useState } from "react";
-// import profile from '../../Assets/profile.png'
-// import profile from "Assets/profile2.png";
-// import profile from '../../Assets/test.jpg'
-import { FaDev, FaGithub, FaLinkedinIn, FaStackOverflow } from "react-icons/fa";
+import {  FaGithub, FaLinkedinIn, FaStackOverflow } from "react-icons/fa";
 import { RiTwitterXFill } from "react-icons/ri";
 import "../Styles/Sideprofile.css";
 import HireModal from "../Common/HireModal";
@@ -12,8 +9,8 @@ import Image from "next/image";
 export default function SideProfile() {
   const [open, setOpen] = useState(false);
   const handleButtonClick = () => {
-    const recipient = "mdmehedihasan9874@gmail.com"; // Replace with the recipient's email address
-    const subject = "Job Offer for [Position Name] at [Company Name]"; // Replace with the email subject
+    const recipient = "mdmehedihasan9874@gmail.com"; 
+    const subject = "Job Offer for [Position Name] at [Company Name]";
     const body = `Dear Concern,
 
 I hope this message finds you well. I am reaching out to express our keen interest in having you join our team at [Company Name]. After reviewing your impressive background and experience in [relevant field or position], we believe that you would be a valuable addition to our company.

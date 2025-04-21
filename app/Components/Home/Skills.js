@@ -2,7 +2,7 @@ import React from 'react'
 import { FaFigma, FaNodeJs, FaReact } from 'react-icons/fa6'
 import { IoLogoGithub, IoLogoJavascript } from 'react-icons/io'
 import { LiaShapesSolid } from 'react-icons/lia'
-import { BsBrowserChrome } from "react-icons/bs";
+// import { BsBrowserChrome } from "react-icons/bs";
 import { DiBootstrap } from "react-icons/di";
 import { SiMui, SiTailwindcss } from "react-icons/si";
 
@@ -24,7 +24,7 @@ export default function Skills() {
             <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-y-10'>
                 {
                     skills.map((item, index) => <div key={index} className='flex flex-col items-center gap-2' data-aos="fade-up" data-aos-duration="1500">
-                        <span className='border border-gray rounded-full py-16 px-10 hover:border-[#28e98c] transition duration-200'>{item.icon}</span>
+                        <span className='border border-neutral-500 hover:border-[#28e98c] rounded-full py-16 px-10 transition duration-200'>{item.icon}</span>
                         {item.title}
                     </div>)
                 }

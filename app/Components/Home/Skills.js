@@ -5,7 +5,6 @@ import { LiaShapesSolid } from 'react-icons/lia'
 // import { BsBrowserChrome } from "react-icons/bs";
 import { DiBootstrap } from "react-icons/di";
 import { SiMui, SiTailwindcss } from "react-icons/si";
-/* Needs modification */
 
 export default function Skills() {
     const skills = [

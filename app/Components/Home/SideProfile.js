@@ -57,25 +57,25 @@ Best regards,
       </h1>
       <ul className="flex items-center justify-center gap-3 my-5">
         <li className="border border-neutral-500 rounded-md p-2 text-slate-100 cursor-pointer">
-          <a href="https://www.linkedin.com/in/mehedi5/" _blank>
+          <a href="https://www.linkedin.com/in/mehedi5/" _blank="true">
             <FaLinkedinIn />
           </a>
         </li>
         <li className="border border-neutral-500 rounded-md p-2 text-slate-100 cursor-pointer">
-          <a href="https://github.com/MdMehedi-Hasan" _blank>
+          <a href="https://github.com/MdMehedi-Hasan" _blank="true">
             <FaGithub />
           </a>
         </li>
         <li className="border border-neutral-500 rounded-md p-2 text-slate-100 cursor-pointer">
           <a
             href="https://stackoverflow.com/users/18447905/mehedi-hasan"
-            _blank
+            _blank="true"
           >
             <FaStackOverflow />
           </a>
         </li>
         <li className="border border-neutral-500 rounded-md p-2 text-slate-100 cursor-pointer">
-          <a href="https://twitter.com/mehedirhasan" _blank>
+          <a href="https://twitter.com/mehedirhasan" _blank="true">
             <RiTwitterXFill />
           </a>
         </li>

@@ -1,8 +1,5 @@
 import React, { useRef } from "react";
 import { BiMessageDetail } from "react-icons/bi";
-// import munim from "Assets/companies/Munim-Bhai-1024x1024.webp";
-// import fahim from "Assets/companies/fahim.jpg";
-// import anam from "Assets/companies/anam.webp";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper/modules";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";

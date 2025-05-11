@@ -4,9 +4,9 @@ import Image from "next/image";
 
 export default function Portfolio() {
   return (
-    <section>
+    <section className="mb-10 mt-36">
       <span
-        className="flex items-center gap-2 text-xs border border-[#565656] rounded-full w-fit px-4 py-2 mb-10 mt-36"
+        className="flex items-center gap-2 text-xs border border-[#565656] rounded-full w-fit px-4 py-2 mb-20"
         id="portfolio"
         data-aos="fade-up"
         data-aos-duration="1500"

@@ -45,7 +45,7 @@ export default function Contact() {
         Get In <span className="text-primary">Touch</span>
       </h1>
       <p className="text-xl" /* data-aos="fade-up" data-aos-duration="1500" */>
-        mdmehedihasan9874@gmail.com
+        mehedihasan247h@gmail.com
       </p>
       <form
         ref={form}

@@ -29,20 +29,20 @@ export default function Reviews() {
       <span
         className="flex items-center gap-2 text-xs border border-[#565656] rounded-full w-fit px-4 py-2"
         id="reviews"
-        data-aos="fade-up"
-        data-aos-duration="1500"
+        // data-aos="fade-up"
+        // data-aos-duration="1500"
       >
         <BiMessageDetail />
         REVIEWS
       </span>
       <h1
         className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl mt-16 mb-10"
-        data-aos="fade-up"
-        data-aos-duration="1500"
+        // data-aos="fade-up"
+        // data-aos-duration="1500"
       >
         Trusted by <span className="text-primary">Leading Companies</span>
       </h1>
-      <div data-aos="fade-up" data-aos-duration="1500">
+      <div /* data-aos="fade-up" data-aos-duration="1500" */>
         {/* Swiper */}
         <Swiper
           navigation={{

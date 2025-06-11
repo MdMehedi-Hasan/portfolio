@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import {  FaGithub, FaLinkedinIn, FaStackOverflow } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaStackOverflow } from "react-icons/fa";
 import { RiTwitterXFill } from "react-icons/ri";
 import "../Styles/Sideprofile.css";
 import HireModal from "../Common/HireModal";
@@ -9,7 +9,7 @@ import Image from "next/image";
 export default function SideProfile() {
   const [open, setOpen] = useState(false);
   const handleButtonClick = () => {
-    const recipient = "mdmehedihasan9874@gmail.com"; 
+    const recipient = "mdmehedihasan9874@gmail.com";
     const subject = "Job Offer for [Position Name] at [Company Name]";
     const body = `Dear Concern,
 
@@ -25,7 +25,7 @@ Best regards,
 [Your Name]
 [Your Position]
 [Company Name]
-[Your Contact Information]`; // Replace with the email body
+[Your Contact Information]`;
 
     const gmailComposeUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(
       recipient
@@ -86,7 +86,7 @@ Best regards,
       </p>
       <div className="flex justify-center mt-5">
         <button
-          className="bg-primary rounded-full w-2/3 py-2 text-black"
+          className="bg-primary rounded-full w-2/3 py-2 text-black cursor-pointer"
           onClick={handleButtonClick}
         >
           Hire Me!

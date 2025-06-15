@@ -25,6 +25,7 @@ export default function Contact() {
         }
       );
   };
+  console.log("Contact Form Rendered");
   return (
     <div className="mb-10 mt-10">
       <span

@@ -89,7 +89,3 @@ export default function Portfolio() {
     </section>
   );
 }
-
-
-
-var data = ["rakib",32,{age:64}]
